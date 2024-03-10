@@ -5,7 +5,7 @@ import dbConnect from './src/config/db.js';
 
 
 
-dotenv.config({path:'../server/src/config/.env'});
+dotenv.config({path:'../backend/src/config/.env'});
 
 
 //db
