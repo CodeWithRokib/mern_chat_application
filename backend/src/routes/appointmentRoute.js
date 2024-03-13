@@ -5,8 +5,7 @@ import {
   getAppointment,
   getAppointmentById,
   updateAppointment,
-} from "../controllers/appointmentController";
-
+} from "../controllers/appointmentController.js";
 const router = express.Router();
 
 router.get("/appointment", getAppointment);
